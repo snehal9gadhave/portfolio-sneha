@@ -1,0 +1,140 @@
+/* GLOBAL STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+body {
+    background: #F4F4F4;
+    color: #1A1A1A;
+    line-height: 1.7;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #06668C, #0884A5);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.15);
+}
+
+header h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.highlight {
+    color: #FFBA49;
+}
+
+/* SECTIONS */
+.box {
+    background: #ffffff;
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 35px rgba(0,0,0,0.18);
+}
+
+.box h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #06668C;
+    position: relative;
+}
+
+.box h2::after {
+    content: "";
+    width: 70px;
+    height: 4px;
+    background: #FFBA49;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    border-radius: 2px;
+}
+
+/* LIST STYLING */
+.list li {
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    border-left: 4px solid #FFBA49;
+    background: #FFF8E7;
+    border-radius: 6px;
+    color: #1A1A1A;
+}
+
+/* PROJECT CARDS */
+.project {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    border-left: 6px solid #FFBA49;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.project:hover {
+    transform: translateX(5px);
+    background: #FFF5D9;
+}
+
+/* LINKS */
+.list a {
+    color: #06668C;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.list a:hover {
+    color: #04475F;
+    text-decoration: underline;
+}
+
+/* RESUME BUTTON */
+.resume-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: linear-gradient(135deg, #06668C, #FFBA49);
+    color: white;
+    border-radius: 35px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+    transition: 0.3s ease;
+}
+
+.resume-btn:hover {
+    transform: translateY(-3px);
+    filter: brightness(1.08);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #06668C;
+    color: white;
+    margin-top: 30px;
+    font-size: 16px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0px -4px 12px rgba(0,0,0,0.15);
+}
